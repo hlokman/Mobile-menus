@@ -35,9 +35,8 @@ videos.addEventListener("click", (e) => {
 //REVIEW
 reviews.addEventListener("click", (e) => {
   if (e.target.id === "reviews") {
-    console.log(e.target);
+    renderReviews();
   }
-  renderReviews();
 });
 
 //FORUM
